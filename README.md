@@ -35,7 +35,7 @@ We recommended the following dependencies.
  	*  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.6.0-cp36-cp36m-macosx_10_11_x86_64.whl for Linux.
   	*  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.6.0-cp36-cp36m-macosx_10_11_x86_64.whl for MacOS.
 *  scipy 1.5.4
-
+*  opencv-python 4.11.0.86
 
 <!-- ## Installation -->
 ```
