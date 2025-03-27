@@ -37,7 +37,7 @@ We recommended the following dependencies.
 *  scipy 1.5.4
 *  opencv-python 4.11.0.86
 *  scikit-image 0.17.2
-*  
+
 If you're showing ```dlerror: cudart64_110.dll not found``` error when running on Windows, download and install the corresponding versioning CUDA toolkit: https://developer.nvidia.com/cuda-11.3.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local
 
 <!-- ## Installation -->
