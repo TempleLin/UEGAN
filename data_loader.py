@@ -57,8 +57,7 @@ class ReferenceDataset(data.Dataset):
         fname, fname2 = self.samples[index]
         name = str(fname2)
         img_name, _ = name.split('.', 1)
-        if '/' in img_name:
-            _, img_name = img_name.rsplit('/', 1)
+        _, img_name = img_name.rsplit('/', 1)
         img = Image.open(fname).convert('RGB')
         img2 = Image.open(fname2).convert('RGB')
         if self.transform is not None:
