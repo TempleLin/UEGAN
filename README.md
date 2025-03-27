@@ -29,6 +29,11 @@ We recommended the following dependencies.
 *  tqdm 4.43.0
 *  munch 2.5.0
 *  torchvision 0.5.0
+*  protobuf 3.19.6 (Install before Tensorflow. If installing Tensorflow without Protobuf first, it'll automatically install Protobuf that's not supported in Python 3.6, leading to failed install.)
+*  Tensorflow
+	*  https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-2.6.0-cp36-cp36m-win_amd64.whl for Windows.
+ 	*  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.6.0-cp36-cp36m-macosx_10_11_x86_64.whl for Linux.
+  	*  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.6.0-cp36-cp36m-macosx_10_11_x86_64.whl for MacOS.
 
 
 <!-- ## Installation -->
