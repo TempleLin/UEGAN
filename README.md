@@ -24,16 +24,17 @@ Improving the aesthetic quality of images is challenging and eager for the publi
 
 ## Requirements and Installation
 We recommended the following dependencies.
-*  Python 3.6
+*  Python 3.6 (last tested working in 3.6.8)
 *  PyTorch 1.4.0
 *  tqdm 4.43.0
 *  munch 2.5.0
 *  torchvision 0.5.0
 *  protobuf 3.19.6 (Install before Tensorflow. If installing Tensorflow without Protobuf first, it'll automatically install Protobuf that's not supported in Python 3.6, leading to failed install.)
-*  Tensorflow
+*  Tensorflow (use storage compatible with Python 3.6 in the sublists below)
 	*  https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-2.6.0-cp36-cp36m-win_amd64.whl for Windows.
  	*  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.6.0-cp36-cp36m-macosx_10_11_x86_64.whl for Linux.
   	*  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.6.0-cp36-cp36m-macosx_10_11_x86_64.whl for MacOS.
+*  scipy 1.5.4
 
 
 <!-- ## Installation -->
