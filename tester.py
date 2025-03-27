@@ -58,7 +58,7 @@ class Tester(object):
         self.G.eval()
 
         pbar = tqdm(total=(test_total_steps - test_start), desc='Test epoches', position=test_start)
-        pbar.write("============================== Start tesing ==============================")
+        pbar.write("============================== Start testing ==============================")
         with torch.no_grad():
             for test_step in range(test_start, test_total_steps):
                 input = next(self.fetcher_test)
